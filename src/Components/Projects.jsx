@@ -49,7 +49,7 @@ export default function Projects() {
     ];
 
     return (
-        <section id="projects" className="py-20 px-8 md:px-20 bg-slate-800/30">
+        <section id="projects" className="py-20 px-8 md:px-20 bg-slate-600">
             <motion.h3
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}

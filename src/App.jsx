@@ -29,7 +29,7 @@ export default function App() {
       } transition-colors duration-500 min-h-screen`}
     >
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
-      <Hero />
+      <Hero darkMode={darkMode} />
       <Skills />
       <Projects />
       <Contact />

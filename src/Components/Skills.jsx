@@ -32,7 +32,7 @@ export default function Skills() {
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}
                         transition={{ delay: i * 0.1 }}
-                        className="p-6 rounded-2xl shadow-md backdrop-blur-lg border border-dashed hover:shadow-xl hover:bg-slate-500 transition"
+                        className="p-6 rounded-2xl shadow-md backdrop-blur-lg border border-dashed hover:shadow-xl hover:bg-white hover:text-black transition e"
                     >
                         {skill}
                     </motion.div>
